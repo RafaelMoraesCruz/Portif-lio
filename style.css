@@ -1,0 +1,54 @@
+.header-div{
+    background-color: #c6d4e1;
+    min-height: 400px;
+    align-items: center;
+    padding: 5% 7%;
+}
+
+.rafael-george-perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.resumo-div{
+    background-color: #44749d;
+    min-height: 400px;
+    align-items: center;
+    padding: 5% 7%;
+    color: white;
+}
+
+.resumo-div a{
+    color: white;
+}
+
+.formacao-item img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.formacao-item {
+    position:relative
+}
+.formacao-item:hover{
+    top:-4px;
+    box-shadow:0 4px 4px #999;
+    transition: all .2s ease-in-out
+}
+
+#accordionFlushExample{
+    background-color: #44749d;
+    color: white;
+    padding: 5% 7%;
+}
+
+.accordion-button{
+    background-color:#44749d;
+}
+
+.accordion-item{
+    background-color: #999;
+    color: white;
+}
