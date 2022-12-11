@@ -6,9 +6,9 @@
 }
 
 .rafael-george-perfil{
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
 }
 
 .resumo-div{
@@ -46,6 +46,7 @@
 
 .accordion-button{
     background-color:#44749d;
+    color: white;
 }
 
 .accordion-item{
