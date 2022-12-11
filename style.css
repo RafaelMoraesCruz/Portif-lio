@@ -34,7 +34,7 @@
 }
 .formacao-item:hover{
     top:-4px;
-    box-shadow:0 4px 4px #999;
+    box-shadow:0 4px 4px #c6d4e1;
     transition: all .2s ease-in-out
 }
 
@@ -49,6 +49,12 @@
 }
 
 .accordion-item{
-    background-color: #999;
+    background-color: #c6d4e1;
     color: white;
+}
+
+#Footer{
+    color: black;
+    text-align: center;
+    background-color: #c6d4e1;
 }
