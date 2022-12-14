@@ -1,8 +1,17 @@
+Footer{
+    text-align: center;
+    background: linear-gradient(to right, #c6d4e1, #44749d);
+}
+
+#body1{
+    background: linear-gradient(to right, #c6d4e1, #44749d);
+    color: black;
+    padding: 2% 10%;
+}
+
 .header-div{
-    background-color: #c6d4e1;
     min-height: 400px;
     align-items: center;
-    padding: 5% 7%;
 }
 
 .rafael-george-perfil{
@@ -12,15 +21,16 @@
 }
 
 .resumo-div{
-    background-color: #44749d;
     min-height: 400px;
     align-items: center;
-    padding: 5% 7%;
-    color: white;
 }
 
 .resumo-div a{
-    color: white;
+    color: black;
+}
+
+.formacao{
+    padding-bottom: 5%;
 }
 
 .formacao-item img{
@@ -39,23 +49,18 @@
 }
 
 #accordionFlushExample{
-    background-color: #44749d;
-    color: white;
-    padding: 5% 7%;
+    color: black;
 }
 
 .accordion-button{
-    background-color:#44749d;
-    color: white;
+    background: linear-gradient(to right, #c6d4e1, #44749d);
+    color: black;
 }
 
 .accordion-item{
-    background-color: #c6d4e1;
-    color: white;
+    background: linear-gradient(to right, #c6d4e1, #44749d);
 }
 
-#Footer{
-    color: black;
-    text-align: center;
-    background-color: #c6d4e1;
+.accordion-body{
+    text-align: left;
 }
