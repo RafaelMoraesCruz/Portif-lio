@@ -14,6 +14,10 @@ Footer{
     align-items: center;
 }
 
+.descricao{
+    text-align: left;
+}
+
 .rafael-george-perfil{
     width: 150px;
     height: 150px;
