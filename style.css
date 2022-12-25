@@ -1,10 +1,10 @@
 Footer{
     text-align: center;
-    background: linear-gradient(to right, #c6d4e1, #44749d);
+    background: linear-gradient(to right, #c6d4e1, #71baeb);
 }
 
 #body1{
-    background: linear-gradient(to right, #c6d4e1, #44749d);
+    background: linear-gradient(to right, #c6d4e1, #71baeb);
     color: black;
     padding: 2% 10%;
 }
@@ -21,7 +21,7 @@ Footer{
 .rafael-george-perfil{
     width: 150px;
     height: 150px;
-    border-radius: 20%;
+    border-radius: 70%;
 }
 
 .resumo-div{
