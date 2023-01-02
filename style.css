@@ -52,17 +52,26 @@ Footer{
     transition: all .2s ease-in-out
 }
 
+.carousel-item{
+    text-align: center;
+}
+
+.carousel-item img{
+    height: 200px;
+    width: 200px;
+}
+
 #accordionFlushExample{
     color: black;
 }
 
 .accordion-button{
-    background: linear-gradient(to right, #c6d4e1, #44749d);
+    background: linear-gradient(to right, #c6d4e1, #71baeb);
     color: black;
 }
 
 .accordion-item{
-    background: linear-gradient(to right, #c6d4e1, #44749d);
+    background: linear-gradient(to right, #c6d4e1, #71baeb);
 }
 
 .accordion-body{
