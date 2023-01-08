@@ -21,11 +21,7 @@ Footer{
 .rafael-george-perfil{
     width: 180px;
     height: 150px;
-<<<<<<< Updated upstream
     border-radius: 70%;
-=======
-    border-radius: 50%;
->>>>>>> Stashed changes
 }
 
 .resumo-div{
@@ -50,23 +46,35 @@ Footer{
 .formacao-item {
     position:relative
 }
-.formacao-item:hover{
+.formacao-item:hover, .card:hover{
     top:-4px;
     box-shadow:0 4px 4px #c6d4e1;
     transition: all .2s ease-in-out
+}
+
+.row{
+    justify-content: center;
+    align-items: center;
 }
 
 .projetos{
     margin: 5% 0;
 }
 
-.carousel-item{
+.col{
+    margin-right: 2rem;
+    margin-top: 2rem;
     text-align: center;
 }
 
-.carousel-item img{
-    height: 200px;
-    width: 200px;
+.card-body{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.color-number-card{
+    background-color: blue;
 }
 
 #accordionFlushExample{
