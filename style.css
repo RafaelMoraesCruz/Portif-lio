@@ -1,12 +1,11 @@
 Footer{
     text-align: center;
-    background: linear-gradient(to right, #c6d4e1, #71baeb);
 }
 
 #body1{
     background: linear-gradient(to right, #c6d4e1, #71baeb);
     color: black;
-    padding: 2% 10%;
+    padding: 2% 15%;
 }
 
 .header-div{
@@ -67,10 +66,8 @@ Footer{
     text-align: center;
 }
 
-.card-body{
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+.btn-success{
+    bottom: 0 !important;
 }
 
 .color-number-card{
