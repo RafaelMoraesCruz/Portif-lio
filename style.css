@@ -70,6 +70,11 @@ Footer{
     bottom: 0 !important;
 }
 
+.card-img-top{
+    height: 200px;
+    width: 100%;
+}
+
 .color-number-card{
     background-color: blue;
 }
