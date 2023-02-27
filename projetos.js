@@ -12,13 +12,12 @@ PROJETOS = [
     url: "https://github.com/RafaelMoraesCruz/Estudo-dataSet-Pokemon--p-s-",
     descricao: "projeto",
     image: "./imagens/pokemon.jpg",
-  }),
-  (projeto3 = {
-    titulo: "Bootstrap Trainning",
-    tecnologias: "HTML, CSS, Bootstrap",
-    url: "https://rafaelmoraescruz.github.io/Bootstrap-Trainning/",
+  }),(projeto3 = {
+    titulo: "Coleta Seletiva Recife",
+    tecnologias: "Python, Pandas, BeautifulSoap, Streamlit",
+    url: "https://github.com/RafaelMoraesCruz/pontos_coleta_recife",
     descricao: "projeto",
-    image: "./imagens/bootstraptrainning.webp",
+    image: "./imagens/coleta-seletiva.jfif",
   }),
   (projeto4 = {
     titulo: "FrontEnd DeepCode",
@@ -46,7 +45,13 @@ PROJETOS = [
     url: "https://rafaelmoraescruz.github.io/Drum-Kit/",
     descricao: "projeto",
     image: "./imagens/bateria.jpg",
-  })
+  }),(projeto8 = {
+    titulo: "Bootstrap Trainning",
+    tecnologias: "HTML, CSS, Bootstrap",
+    url: "https://rafaelmoraescruz.github.io/Bootstrap-Trainning/",
+    descricao: "projeto",
+    image: "./imagens/bootstraptrainning.webp",
+  }),
 ];
 
 function create_projetos_cards(PROJETOS) {

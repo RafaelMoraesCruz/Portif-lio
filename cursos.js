@@ -46,7 +46,7 @@ CURSOS = [
   (curso = {
     nome: "Git e Github (Curso em Video)",
     descricao:
-      "uso básico de git e github (clone, push & pull, branchs, pull request, commits...)",
+      "Uso básico de git e github (clone, push & pull, branchs, pull request, commits...)",
   }),
 ];
 

@@ -81,6 +81,10 @@ Footer{
     background-color: blue;
 }
 
+.card-body{
+    background-color: black;
+}
+
 #accordionFlushExample{
     color: black;
 }
@@ -96,4 +100,5 @@ Footer{
 
 .accordion-body{
     text-align: left;
+    background-color: white;
 }
