@@ -5,7 +5,8 @@ Footer{
 #body1{
     background: linear-gradient(to right, #c6d4e1, #71baeb);
     color: black;
-    padding: 2% 15%;
+    padding: 1% 15%;
+    text-rendering: optimizeLegibility;
 }
 
 .header-div{
@@ -14,7 +15,8 @@ Footer{
 }
 
 .descricao{
-    text-align: left;
+    text-align: justify;
+    text-rendering: optimizeLegibility;
 }
 
 .rafael-george-perfil{
@@ -24,8 +26,8 @@ Footer{
 }
 
 .resumo-div{
-    min-height: 400px;
-    align-items: center;
+    min-height: 300px;
+    text-align: justify;
 }
 
 .resumo-div a{
@@ -63,7 +65,7 @@ Footer{
 .col{
     margin-right: 2rem;
     margin-top: 2rem;
-    text-align: center;
+    text-align: justify;
 }
 
 .btn-success{
