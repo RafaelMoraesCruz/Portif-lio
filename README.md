@@ -16,6 +16,8 @@
   └── deepcode.webp
   └── deepcode2.jpg
   └── dota2.jpg
+  └── energia.jpg
+  └── machine_learning.jpg
   └── pokemon.jpg
 ├── README.md
 ├── cursos.js
