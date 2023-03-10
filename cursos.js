@@ -1,4 +1,8 @@
-CURSOS = [
+CURSOS = [(curso = {
+  nome: "Formação Machine Learning - ATUALMENTE",
+  descricao:
+    "Machine Learning: classificação com SKLearn; Machine Learning: classificação por trás dos panos; Machine Learning: lidando com dados de muitas dimensões; Clustering aplicado: recomendando músicas com K-Means; Clustering: extraindo padrões de dados; Machine Learning: validação de modelos; Machine Learning parte 1: otimização de modelos através de hiperprâmetros; Machine Learning parte 2: otimização com exploração aleatória.",
+}),
   (curso = {
     nome: "Deep Code (Qualiti Inivative Learning)",
     descricao:
@@ -7,21 +11,21 @@ CURSOS = [
   (curso = {
     nome: "Formação Python para Data Science (Alura)",
     descricao:
-      "Scraping com Python: coleta de dados na web, Python para Data Science: linguagem e Numpy, Python para Data Science: Funções, Pacotes e Pandas, Python para Data Science, Python Pandas: tratando e analisando dados, Pandas: formatos diferentes de entrada e saída (IO), Data Visualization: explorando com Seaborn, Data Science: análise de series temporais, Corretor Ortográfico em Python: aplicando técnicas de NLP",
+      "Scraping com Python: coleta de dados na web, Python para Data Science: linguagem e Numpy, Python para Data Science: Funções, Pacotes e Pandas, Python para Data Science, Python Pandas: tratando e analisando dados, Pandas: formatos diferentes de entrada e saída (IO), Data Visualization: explorando com Seaborn, Data Science: análise de series temporais, Corretor Ortográfico em Python: aplicando técnicas de NLP.",
   }),
   (curso = {
     nome: "The complete 2022 Web Development bootcamp (Udemy)",
-    descricao: "HTML, CSS, Javascript, Node, React, Web3 and DApps",
+    descricao: "HTML, CSS, Javascript, Node, React, Web3 and DApps.",
   }),
   (curso = {
     nome: "Java 2022 completo (Udemy)",
     descricao:
-      "Fundamentos Java, Orientação a Objeto, Programação Funcional, MySQL, Spring Boot, JPA, Hibernate",
+      "Fundamentos Java, Orientação a Objeto, Programação Funcional, MySQL, Spring Boot, JPA, Hibernate.",
   }),
   (curso = {
     nome: "Python 3 (Curso em vídeos)",
     descricao:
-      "Fundamentos do python, lógica de programação, Orientação a objeto",
+      "Fundamentos do python, lógica de programação, Orientação a objeto.",
   }),
   (curso = {
     nome: "React com Typescript",
@@ -41,12 +45,12 @@ CURSOS = [
   (curso = {
     nome: "MySQL (Curso em vídeo)",
     descricao:
-      "Uso básico do MySQl (CREATE, SELECT, UPDATE, INSERT, DROP, DELETE,JOIN)",
+      "Uso básico do MySQl (CREATE, SELECT, UPDATE, INSERT, DROP, DELETE,JOIN).",
   }),
   (curso = {
     nome: "Git e Github (Curso em Video)",
     descricao:
-      "Uso básico de git e github (clone, push & pull, branchs, pull request, commits...)",
+      "Uso básico de git e github (clone, push & pull, branchs, pull request, commits...).",
   }),
 ];
 

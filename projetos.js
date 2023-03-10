@@ -12,7 +12,8 @@ PROJETOS = [
     url: "https://github.com/RafaelMoraesCruz/Estudo-dataSet-Pokemon--p-s-",
     descricao: "projeto",
     image: "./imagens/pokemon.jpg",
-  }),(projeto3 = {
+  }),
+  (projeto3 = {
     titulo: "Coleta Seletiva Recife",
     tecnologias: "Python, Pandas, BeautifulSoap, Streamlit",
     url: "https://github.com/RafaelMoraesCruz/pontos_coleta_recife",
@@ -39,13 +40,23 @@ PROJETOS = [
     url: "https://github.com/RafaelMoraesCruz/dashboard-cesar-completo",
     descricao: "projeto",
     image: "./imagens/acidente-de-transito.jpg",
-  }),(projeto7 = {
-    titulo: "Drum-Ki",
-    tecnologias: "HTML, CSS, Javascript",
-    url: "https://rafaelmoraescruz.github.io/Drum-Kit/",
+  }),
+  (projeto7 = {
+    titulo: "estudo-uso-kw-brasil",
+    tecnologias: "Python, pandas, Matplotlib, SKLearn",
+    url: "https://github.com/RafaelMoraesCruz/estudo-uso-kw-brasil",
     descricao: "projeto",
-    image: "./imagens/bateria.jpg",
-  }),(projeto8 = {
+    image: "./imagens/energia.jpg",
+  }),(
+    (projeto8 = {
+      titulo: "Drum-Ki",
+      tecnologias: "HTML, CSS, Javascript",
+      url: "https://rafaelmoraescruz.github.io/Drum-Kit/",
+      descricao: "projeto",
+      image: "./imagens/bateria.jpg",
+    })
+  ),
+  (projeto9 = {
     titulo: "Bootstrap Trainning",
     tecnologias: "HTML, CSS, Bootstrap",
     url: "https://rafaelmoraescruz.github.io/Bootstrap-Trainning/",
