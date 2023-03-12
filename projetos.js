@@ -12,7 +12,8 @@ PROJETOS = [
     url: "https://github.com/RafaelMoraesCruz/Estudo-dataSet-Pokemon--p-s-",
     descricao: "projeto",
     image: "./imagens/pokemon.jpg",
-  }),(projeto3 = {
+  }),
+  (projeto3 = {
     titulo: "Coleta Seletiva Recife",
     tecnologias: "Python, Pandas, BeautifulSoap, Streamlit",
     url: "https://github.com/RafaelMoraesCruz/pontos_coleta_recife",
@@ -39,13 +40,29 @@ PROJETOS = [
     url: "https://github.com/RafaelMoraesCruz/dashboard-cesar-completo",
     descricao: "projeto",
     image: "./imagens/acidente-de-transito.jpg",
-  }),(projeto7 = {
+  }),
+  (projeto7 = {
+    titulo: "estudo-uso-kw-brasil",
+    tecnologias: "Python, pandas, Matplotlib, SKLearn",
+    url: "https://github.com/RafaelMoraesCruz/estudo-uso-kw-brasil",
+    descricao: "projeto",
+    image: "./imagens/energia.jpg",
+  }),
+  (projeto8 = {
+    titulo: "modelos-descritivos",
+    tecnologias: "Python, pandas, Matplotlib, SKLearn",
+    url: "https://github.com/RafaelMoraesCruz/modelos-descritivos-nao-supervisionado",
+    descricao: "projeto",
+    image: "./imagens/machine_learning.jpg",
+  }),
+  (projeto9 = {
     titulo: "Drum-Ki",
     tecnologias: "HTML, CSS, Javascript",
     url: "https://rafaelmoraescruz.github.io/Drum-Kit/",
     descricao: "projeto",
     image: "./imagens/bateria.jpg",
-  }),(projeto8 = {
+  }),
+  (projeto10 = {
     titulo: "Bootstrap Trainning",
     tecnologias: "HTML, CSS, Bootstrap",
     url: "https://rafaelmoraescruz.github.io/Bootstrap-Trainning/",
@@ -61,11 +78,11 @@ function create_projetos_cards(PROJETOS) {
     projetos_div.append(
       '<div class="col col-lg-3 col-md-6"><div class="card text-bg-primary" style="width: 20rem;"><img src="' +
         image +
-        '"class="card-img-top" alt="card-img"><div class="card-body"><h5 class="card-title">' +
+        '"class="card-img-top" alt="card-img"><div class="card-body"><h5 class="card-title"><b>' +
         titulo +
-        '</h5><p class="card-text">' +
+        '</b></h5><p class="card-text"><i>' +
         tecnologias +
-        "</p><a href=" +
+        "</i></p><a href=" +
         url +
         ' class="btn btn-light">Check project</a></div></div></div>'
     );

@@ -5,7 +5,7 @@ Footer{
 #body1{
     background: linear-gradient(to right, #c6d4e1, #71baeb);
     color: black;
-    padding: 1% 15%;
+    padding: 1% 9%;
     text-rendering: optimizeLegibility;
 }
 
@@ -63,8 +63,8 @@ Footer{
 }
 
 .col{
-    margin-right: 2rem;
-    margin-top: 2rem;
+    padding: auto;
+    margin-top: 1rem;
     text-align: center;
 }
 
