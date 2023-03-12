@@ -15,7 +15,7 @@ PROJETOS = [
   }),
   (projeto3 = {
     titulo: "Coleta Seletiva Recife",
-    tecnologias: "Python, Pandas, BeautifulSoap, Streamlit",
+    tecnologias: "Python, Pandas, bs4, Streamlit",
     url: "https://github.com/RafaelMoraesCruz/pontos_coleta_recife",
     descricao: "projeto",
     image: "./imagens/coleta-seletiva.jfif",

@@ -8,13 +8,13 @@ formacoes = [
   (formacao = {
     imagem: "./imagens/POLI.png",
     url: "https://upe.poli.br/",
-    nome: "Universidade de Pernambuco (UPE)",
+    nome: "Universidade de Pernambuco",
     titulo: "Engenheiro Civil",
   }),
   (formacao = {
     imagem: "./imagens/Cesar.png",
     url: "https://www.cesar.school/",
-    nome: "Cesar School",
+    nome: "CESAR School",
     titulo: "Pós-graduação em Engenharia e análise de dados",
   }),
 ];
