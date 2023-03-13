@@ -84,7 +84,7 @@ function create_projetos_cards(PROJETOS) {
         tecnologias +
         "</i></p><a href=" +
         url +
-        ' class="btn btn-light">Check project</a></div></div></div>'
+        ' class="btn btn-light">Projeto</a></div></div></div>'
     );
   });
 }
