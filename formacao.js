@@ -9,7 +9,7 @@ formacoes = [
     imagem: "./imagens/cin.jpg",
     url: "https://portal.cin.ufpe.br/",
     nome: "Cin/Motorola",
-    titulo: "Residencia de software Cin/Motorola",
+    titulo: "Residência de software Cin/Motorola",
   }),
   (formacao = {
     imagem: "./imagens/MaristaSaoLuis.png",
