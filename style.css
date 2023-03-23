@@ -45,11 +45,13 @@ Footer{
 }
 
 .formacao-item {
-    position:relative
+    position:relative;
+    margin-top: 5%;
 }
+
 .formacao-item:hover, .card:hover{
     top:-4px;
-    box-shadow:0 4px 4px #c6d4e1;
+    box-shadow:4px 4px 4px #c6d4e1;
     transition: all .2s ease-in-out
 }
 

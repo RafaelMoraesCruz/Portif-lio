@@ -1,5 +1,17 @@
 formacoes = [
   (formacao = {
+    imagem: "./imagens/Cesar.png",
+    url: "https://www.cesar.school/",
+    nome: "CESAR School",
+    titulo: "Pós-graduação em Engenharia e análise de dados",
+  }),
+  (formacao = {
+    imagem: "./imagens/cin.jpg",
+    url: "https://portal.cin.ufpe.br/",
+    nome: "Cin/Motorola",
+    titulo: "Residencia de software Cin/Motorola",
+  }),
+  (formacao = {
     imagem: "./imagens/MaristaSaoLuis.png",
     url: "https://marista.edu.br/saoluis/",
     nome: "Marista São Luis",
@@ -11,12 +23,6 @@ formacoes = [
     nome: "Universidade de Pernambuco",
     titulo: "Engenheiro Civil",
   }),
-  (formacao = {
-    imagem: "./imagens/Cesar.png",
-    url: "https://www.cesar.school/",
-    nome: "CESAR School",
-    titulo: "Pós-graduação em Engenharia e análise de dados",
-  }),
 ];
 
 function create_formations(formacoes) {
@@ -24,7 +30,7 @@ function create_formations(formacoes) {
 
   formacoes.forEach(({ imagem, url, nome, titulo }) => {
     formacoes_div.append(
-      '<div class="col-sm-6 col-md-6 col-lg-4 formacao-item"><a href=' +
+      '<div class="col-sm-6 col-md-6 col-lg-6 formacao-item"><a href=' +
         url +
         "><img src=" +
         imagem +
