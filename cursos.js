@@ -1,5 +1,5 @@
 CURSOS = [(curso = {
-  nome: "Formação Machine Learning - ATUALMENTE",
+  nome: "Formação Machine Learning (Alura)",
   descricao:
     "Machine Learning: classificação com SKLearn; Machine Learning: classificação por trás dos panos; Machine Learning: lidando com dados de muitas dimensões; Clustering aplicado: recomendando músicas com K-Means; Clustering: extraindo padrões de dados; Machine Learning: validação de modelos; Machine Learning parte 1: otimização de modelos através de hiperprâmetros; Machine Learning parte 2: otimização com exploração aleatória.",
 }),
@@ -28,7 +28,7 @@ CURSOS = [(curso = {
       "Fundamentos do python, lógica de programação, Orientação a objeto.",
   }),
   (curso = {
-    nome: "React com Typescript",
+    nome: "React com Typescript(Alura)",
     descricao:
       "Componentização, CSS com react, Props, State, Selecionando um item, Finalizando a aplicação.",
   }),
