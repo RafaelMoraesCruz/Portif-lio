@@ -3,9 +3,9 @@ Footer{
 }
 
 #body1{
-    background: linear-gradient(to right, #c6d4e1, #71baeb);
+    background: linear-gradient(to right, #c6d4e1, gray);
     color: black;
-    padding: 1% 9%;
+    padding: 0% 12%;
     text-rendering: optimizeLegibility;
 }
 
@@ -20,8 +20,8 @@ Footer{
 }
 
 .rafael-george-perfil{
-    width: 180px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 70%;
 }
 
@@ -34,23 +34,28 @@ Footer{
     color: black;
 }
 
-.formacao{
+.formacao, .experiencia {
     padding-bottom: 5%;
 }
 
-.formacao-item img{
+.formacao p, .experiencia p{
+    text-align: center;
+}
+
+
+.formacao-item img, .experiencia-item img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
 
-.formacao-item {
+.formacao-item, .experiencia-item{
     position:relative;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
-.formacao-item:hover, .card:hover{
-    top:-4px;
+.formacao-item:hover, .card:hover, .experiencia-item:hover{
+    top:-3px;
     box-shadow:4px 4px 4px #c6d4e1;
     transition: all .2s ease-in-out
 }
@@ -61,7 +66,11 @@ Footer{
 }
 
 .projetos{
-    margin: 5% 0;
+    margin: 3% 0;
+}
+
+.experiencias{
+    margin: 3% 0;
 }
 
 .col{
@@ -80,7 +89,7 @@ Footer{
 }
 
 .color-number-card{
-    background-color: blue;
+    background-color: black;
 }
 
 .card-body{
@@ -92,15 +101,15 @@ Footer{
 }
 
 .accordion-button{
-    background: linear-gradient(to right, #c6d4e1, #71baeb);
+    background: linear-gradient(to right, #c6d4e1, gray);
     color: black;
 }
 
 .accordion-item{
-    background: linear-gradient(to right, #c6d4e1, #71baeb);
+    background: linear-gradient(to right, #c6d4e1, gray);
 }
 
 .accordion-body{
     text-align: left;
-    background-color: white;
+    background-color: gray 0.75;
 }
