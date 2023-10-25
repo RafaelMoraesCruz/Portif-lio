@@ -23,7 +23,10 @@
 ├── cursos.js
 ├── index.html
 ├── projetos.js
+├── formacoes.css
+├── experiencias.js
 ├── style.css
+
 ```
 
 # Objetivo
