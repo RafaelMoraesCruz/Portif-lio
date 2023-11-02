@@ -76,7 +76,7 @@ function create_projetos_cards(PROJETOS) {
 
   PROJETOS.forEach(({ titulo, tecnologias, url, descricao, image }) => {
     projetos_div.append(
-      '<div class="col col-lg-3 col-md-6"><div class="card text-bg-primary" style="width: 20rem;"><img src="' +
+      '<div class="col col-lg-4 col-md-6"><div class="card text-bg-primary";"><img src="' +
         image +
         '"class="card-img-top" alt="card-img"><div class="card-body"><h5 class="card-title"><b>' +
         titulo +

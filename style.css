@@ -5,7 +5,7 @@ Footer{
 #body1{
     background: linear-gradient(to right, #c6d4e1, gray);
     color: black;
-    padding: 0% 12%;
+    padding: 0% 15%;
     text-rendering: optimizeLegibility;
 }
 
@@ -15,8 +15,17 @@ Footer{
 }
 
 .descricao{
-    text-align: justify;
+    text-align: center;
     text-rendering: optimizeLegibility;
+}
+
+.descricao button{
+    margin-top: 12%;
+    align-items: center;
+}
+
+.descricao p{
+    text-align: justify;
 }
 
 .rafael-george-perfil{
@@ -74,7 +83,7 @@ Footer{
 }
 
 .col{
-    padding: auto;
+    padding: 2px;
     margin-top: 1rem;
     text-align: center;
 }
@@ -91,6 +100,7 @@ Footer{
 .color-number-card{
     background-color: black;
 }
+
 
 .card-body{
     background-color: black;
